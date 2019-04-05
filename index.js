@@ -19,6 +19,7 @@ client.on('message', message => {
         message.channel.send('Common');
         switch(tier){
             case 1:
+            /*
                 if(type == 1){
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Trash/Common1.png');
                 }else if(type == 2){
@@ -30,9 +31,10 @@ client.on('message', message => {
                 }else{
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Trash/Common5.png');
                 }
+                */
                 break;
             case 2:
-                //const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Cardboard/Common1.png');
+            /*
                 if(type == 1){
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Cardboard/Common1.png');
                 }else if(type == 2){
@@ -44,9 +46,10 @@ client.on('message', message => {
                 }else{
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Cardboard/Common5.png');
                 }
+                */
                 break;
             case 3:
-                //const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Crate/Common1.png');
+                /*
                 if(type == 1){
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Crate/Common1.png');
                 }else if(type == 2){
@@ -58,9 +61,10 @@ client.on('message', message => {
                 }else{
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Crate/Common5.png');
                 }
+                */
                 break;
             case 4:
-                //const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Present/Common1.png');
+                /*
                 if(type == 1){
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Present/Common1.png');
                 }else if(type == 2){
@@ -72,9 +76,10 @@ client.on('message', message => {
                 }else{
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Present/Common5.png');
                 }
+                */
                 break;
             case 5:
-                //const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Ship/Common1.png');
+                /*
                 if(type == 1){
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Ship/Common1.png');
                 }else if(type == 2){
@@ -86,9 +91,10 @@ client.on('message', message => {
                 }else{
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Ship/Common5.png');
                 }
+                */
                 break;
             case 6:
-                //const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Animoo/Common1.png');
+                /*
                 if(type == 1){
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Animoo/Common1.png');
                 }else if(type == 2){
@@ -100,9 +106,10 @@ client.on('message', message => {
                 }else{
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Animoo/Common5.png');
                 }
+                */
                 break;
             case 7:
-                //const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Treasue/Common1.png');
+                /*
                 if(type == 1){
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Treasue/Common1.png');
                 }else if(type == 2){
@@ -114,6 +121,7 @@ client.on('message', message => {
                 }else{
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Treasue/Common5.png');
                 }
+                */
                 break;
         }
         
@@ -124,6 +132,7 @@ client.on('message', message => {
         //const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Trash/Uncommon1.png');
         switch(tier){
             case 1:
+                /*
                 if(type == 1){
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Trash/Uncommon1.png');
                 }else if(type == 2){
@@ -135,9 +144,10 @@ client.on('message', message => {
                 }else{
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Trash/Uncommon5.png');
                 }
+                */
                 break;
             case 2:
-                //const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Cardboard/Common1.png');
+                /*
                 if(type == 1){
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Cardboard/Uncommon1.png');
                 }else if(type == 2){
@@ -149,9 +159,10 @@ client.on('message', message => {
                 }else{
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Cardboard/Uncommon5.png');
                 }
+                */
                 break;
             case 3:
-                //const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Crate/Common1.png');
+                /*
                 if(type == 1){
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Crate/Uncommon1.png');
                 }else if(type == 2){
@@ -163,9 +174,10 @@ client.on('message', message => {
                 }else{
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Crate/Uncommon5.png');
                 }
+                */
                 break;
             case 4:
-                //const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Present/Common1.png');
+                /*
                 if(type == 1){
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Present/Uncommon1.png');
                 }else if(type == 2){
@@ -177,9 +189,10 @@ client.on('message', message => {
                 }else{
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Present/Uncommon5.png');
                 }
+                */
                 break;
             case 5:
-                //const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Ship/Common1.png');
+                /*
                 if(type == 1){
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Ship/Uncommon1.png');
                 }else if(type == 2){
@@ -191,9 +204,10 @@ client.on('message', message => {
                 }else{
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Ship/Uncommon5.png');
                 }
+                */
                 break;
             case 6:
-                //const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Animoo/Common1.png');
+                /*
                 if(type == 1){
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Animoo/Uncommon1.png');
                 }else if(type == 2){
@@ -205,9 +219,10 @@ client.on('message', message => {
                 }else{
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Animoo/Uncommon5.png');
                 }
+                */
                 break;
             case 7:
-                //const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Treasue/Common1.png');
+                /*
                 if(type == 1){
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Treasue/Uncommon1.png');
                 }else if(type == 2){
@@ -219,6 +234,7 @@ client.on('message', message => {
                 }else{
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Treasue/Uncommon5.png');
                 }
+                */
                 break;
         }
         message.channel.send(webAttachment);
@@ -228,6 +244,7 @@ client.on('message', message => {
         type = randomInt(1,3);
         switch(tier){
             case 1:
+                /*
                 if(type == 1){
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Trash/Rare1.png');
                 }else if(type == 2){
@@ -235,9 +252,10 @@ client.on('message', message => {
                 }else {
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Trash/Rare3.png');
                 }
+                */
                 break;
             case 2:
-                //const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Cardboard/Common1.png');
+                /*
                 if(type == 1){
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Cardboard/Rare1.png');
                 }else if(type == 2){
@@ -245,9 +263,10 @@ client.on('message', message => {
                 }else {
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Cardboard/Rare3.png');
                 }
+                */
                 break;
             case 3:
-                //const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Crate/Common1.png');
+                /*
                 if(type == 1){
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Crate/Rare1.png');
                 }else if(type == 2){
@@ -255,9 +274,10 @@ client.on('message', message => {
                 }else {
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Crate/Rare3.png');
                 }
+                */
                 break;
             case 4:
-                //const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Present/Common1.png');
+                /*
                 if(type == 1){
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Present/Rare1.png');
                 }else if(type == 2){
@@ -265,9 +285,10 @@ client.on('message', message => {
                 }else {
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Present/Rare3.png');
                 }
+                */
                 break;
             case 5:
-                //const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Ship/Common1.png');
+                /*
                 if(type == 1){
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Ship/Rare1.png');
                 }else if(type == 2){
@@ -275,9 +296,10 @@ client.on('message', message => {
                 }else {
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Ship/Rare3.png');
                 }
+                */
                 break;
             case 6:
-                //const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Animoo/Common1.png');
+                /*
                 if(type == 1){
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Animoo/Rare1.png');
                 }else if(type == 2){
@@ -285,9 +307,10 @@ client.on('message', message => {
                 }else {
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Animoo/Rare3.png');
                 }
+                */
                 break;
             case 7:
-                //const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Treasue/Common1.png');
+                /*
                 if(type == 1){
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Treasue/Rare1.png');
                 }else if(type == 2){
@@ -295,6 +318,7 @@ client.on('message', message => {
                 }else {
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Treasue/Rare3.png');
                 }
+                */
                 break;
         }
         message.channel.send(webAttachment);
@@ -304,59 +328,67 @@ client.on('message', message => {
         type = randomInt(1,2);
         switch(tier){
             case 1:
+                /*
                 if(type == 1){
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Trash/Epic1.png');
                 }else {
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Trash/Epic2.png');
                 }
+                */
                 break;
             case 2:
-                //const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Cardboard/Common1.png');
+                /*
                 if(type == 1){
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Cardboard/Epic1.png');
                 }else {
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Cardboard/Epic2.png');
                 }
+                */
                 break;
             case 3:
-                //const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Crate/Common1.png');
+                /*
                 if(type == 1){
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Crate/Epic1.png');
                 }else {
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Crate/Epic2.png');
                 }
+                */
                 break;
             case 4:
-                //const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Present/Common1.png');
+                /*
                 if(type == 1){
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Present/Epic1.png');
                 }else {
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Present/Epic2.png');
                 }
+                */
                 break;
             case 5:
-                //const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Ship/Common1.png');
+                /*
                 if(type == 1){
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Ship/Epic1.png');
                 }else {
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Ship/Epic2.png');
                 }
+                */
                 break;
             case 6:
-                //const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Animoo/Common1.png');
+                /*
                 if(type == 1){
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Animoo/Epic1.png');
                 }else {
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Animoo/Epic2.png');
                 }
+                */
                 break;
             case 7:
-                //const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Treasue/Common1.png');
+                /*
                 if(type == 1){
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Treasue/Epic1.png');
                 }else {
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Treasue/Epic2.png');
                 }
+                */
                 break;
         }
         message.channel.send(webAttachment);
@@ -366,59 +398,67 @@ client.on('message', message => {
         type = randomInt(1,2);
         switch(tier){
             case 1:
+                /*
                 if(type == 1){
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Trash/Legendary1.png');
                 }else {
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Trash/Legendary2.png');
                 }
+                */
                 break;
             case 2:
-                //const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Cardboard/Common1.png');
+                /*
                 if(type == 1){
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Cardboard/Legendary1.png');
                 }else {
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Cardboard/Legendary2.png');
                 }
+                */
                 break;
             case 3:
-                //const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Crate/Common1.png');
+                /*
                 if(type == 1){
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Crate/Legendary1.png');
                 }else {
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Crate/Legendary2.png');
                 }
+                */
                 break;
             case 4:
-                //const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Present/Common1.png');
+                /*
                 if(type == 1){
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Present/Legendary1.png');
                 }else {
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Present/Legendary2.png');
                 }
+                */
                 break;
             case 5:
-                //const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Ship/Common1.png');
+                /*
                 if(type == 1){
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Ship/Legendary1.png');
                 }else {
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Ship/Legendary2.png');
                 }
+                */
                 break;
             case 6:
-                //const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Animoo/Common1.png');
+                /*
                 if(type == 1){
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Animoo/Legendary1.png');
                 }else {
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Animoo/Legendary2.png');
                 }
+                */
                 break;
             case 7:
-                //const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Treasue/Common1.png');
+                /*
                 if(type == 1){
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Treasue/Legendary1.png');
                 }else {
                     const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Treasue/Legendary2.png');
                 }
+                */
                 break;
         }
         message.channel.send(webAttachment);
@@ -432,6 +472,8 @@ client.on('message', message => {
     var roll = random(0,99);
     var tier = randomInt(1,7);
     message.channel.send('roll: '+roll+' tier: '+tier);
+  }else{
+      
   }
 });
 
