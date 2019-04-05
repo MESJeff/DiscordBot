@@ -428,6 +428,10 @@ client.on('message', message => {
         const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Trash/Common1.png');
         message.channel.send(webAttachment);
     }
+  }else if (message.content === 'debug'){
+    var roll = random(0,99);
+    var tier = randomInt(1,7);
+    message.channel.send('roll: '+roll+' tier: '+tier);
   }
 });
 
