@@ -504,7 +504,7 @@ client.on('message', message => {
         webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Trash/Common1.png');
         message.channel.send(webAttachment);
     }
-  }else if (message.content === 'debug'){
+  }else if (message.content === '!debug'){
      var roll2 = random(0,99);
      var tier2 = randomInt(1,7);
     message.channel.send('roll: '+roll2+' tier: '+tier2);
