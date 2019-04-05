@@ -13,10 +13,10 @@ client.on('message', message => {
   if (message.content === '!loot') {
     var roll = random(0,99);
     var tier = randomInt(1,7);
+    var type = randomInt(1,5);
     message.channel.send('roll: '+roll);
     if(roll < 60){
         message.channel.send('Common');
-        var type = randomInt(1,5);
         switch(tier){
             case 1:
                 if(type == 1){
@@ -120,7 +120,7 @@ client.on('message', message => {
         message.channel.send(webAttachment);
     }else if(roll < 80){
         message.channel.send('Uncommon');
-        var type = randomInt(1,5);
+        type = randomInt(1,5);
         //const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Trash/Uncommon1.png');
         switch(tier){
             case 1:
@@ -225,7 +225,7 @@ client.on('message', message => {
     }else if(roll < 92){
         message.channel.send('Rare');
         //const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Trash/Rare1.png');
-        var type = randomInt(1,3);
+        type = randomInt(1,3);
         switch(tier){
             case 1:
                 if(type == 1){
@@ -301,7 +301,7 @@ client.on('message', message => {
     }else if (roll < 97){
         message.channel.send('Epic');
         //const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Trash/Epic1.png');
-        var type = randomInt(1,2);
+        type = randomInt(1,2);
         switch(tier){
             case 1:
                 if(type == 1){
@@ -363,7 +363,7 @@ client.on('message', message => {
     }else if(roll < 100){
         message.channel.send('Legendary');
         //const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Trash/Legendary1.png');
-        var type = randomInt(1,2);
+        type = randomInt(1,2);
         switch(tier){
             case 1:
                 if(type == 1){
