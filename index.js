@@ -19,7 +19,7 @@ client.on('message', message =>{
     }else{
 
     }
-})
+});
 
 // Create an event listener for messages
 /*
