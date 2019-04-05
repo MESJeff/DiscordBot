@@ -441,4 +441,4 @@ function random(low, high){
 
 function randomInt(low, high){
     return Math.floor.random() * ((high-low+1)+low);
-}
+};
