@@ -10,14 +10,10 @@ client.on('ready', () => {
 
 client.on('message', message =>{
     if(message.content === '!loot'){
-        message.channel.send('box');
-    }else if(message.content === '!debug'){
         var roll = random(0,99);
         var tier = randomInt(1,7);
         var type = randomInt(1,5);
         message.channel.send('roll: '+roll+' tier: '+tier+' type: '+type);
-    }else{
-
     }
 });
 
