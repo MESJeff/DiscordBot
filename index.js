@@ -6,10 +6,11 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
   console.log('Bot Ready');
+  var loot_channel = client.channels.get("385551421980016640")
 });
 
 client.on('message', message =>{
-    if (message.content === '!loot' && message.channel.id == '385551421980016640') {
+    if (message.content === '!loot' && message.channel.id == loot_channel) {
         var roll = random(0,99);
         var tier = randomInt(1,7);
         var type = randomInt(1,5);
