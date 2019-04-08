@@ -16,8 +16,8 @@ client.on('message', message =>{
         message.channel.send('roll: '+roll+' tier: '+tier+' type: '+type);
     }
     */
-   if(message.content === '!ping'){
-       message.channel.send('pong');
+   if(message.content === '!loot'){
+       message.channel.send('box');
    }
 });
 
