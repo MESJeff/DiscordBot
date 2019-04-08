@@ -6,8 +6,8 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
   console.log('Bot Ready');
-  var loot_channel = client.channels.get("385551421980016640")
-  console.log(loot_channel);
+  //var loot_channel = client.channels.get("385551421980016640")
+  //console.log(loot_channel);
 });
 
 client.on('message', message =>{
