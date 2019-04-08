@@ -36,5 +36,7 @@ function random(low, high){
 };
 
 function randomInt(low, high){
-    return Math.floor.random() * ((high-low+1)+low);
+    low = Math.ceil(low);
+    high = Math.floor(high);
+    return Math.floor(Math.random() * (high - low + 1)) + low;
 };
