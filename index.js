@@ -513,6 +513,7 @@ client.on('message', message =>{
       }else if (message.content === '!debug'){
          var roll2 = random(0,99);
          var tier2 = randomInt(1,7);
+         var type2 = randomInt(1,2);
         message.channel.send('roll: '+roll2+' tier: '+tier2);
       }else{
         //More commands added here
