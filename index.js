@@ -14,7 +14,7 @@ client.on('message', message =>{
         var tier = randomInt(1,7);
         var type = randomInt(1,5);
         var webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Trash/Common1.png');
-        message.channel.send('roll: '+roll);
+        
         if(roll < 60){
             message.channel.send('Common');
             switch(tier){
@@ -496,6 +496,7 @@ client.on('message', message =>{
                     
                     break;
             }
+            message.channel.send('You got a: '+tier);
             message.channel.send(webAttachment);
         }else{
             //how did you end up here???
