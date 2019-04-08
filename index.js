@@ -9,7 +9,7 @@ client.on('ready', () => {
 });
 
 client.on('message', message =>{
-    if (message.content === '!loot') {
+    if (message.content === '!loot' && message.channel.id === 385551421980016640) {
         var roll = random(0,99);
         var tier = randomInt(1,7);
         var type = randomInt(1,5);
