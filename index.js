@@ -653,6 +653,7 @@ client.on('message', message =>{
          var roll2 = random(0,99);
          var tier2 = randomInt(1,7);
          var type2 = randomInt(1,2);
+         message.channel.send("channel id: "+loot_channel);
         message.channel.send('roll: '+roll2+' tier: '+tier2+' type: '+type2);
         webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Trash/Common1.png');
         message.channel.send(webAttachment);
