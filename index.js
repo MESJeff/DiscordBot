@@ -9,12 +9,16 @@ client.on('ready', () => {
 });
 
 client.on('message', message =>{
-    if(message.content === '!loot'){
+    /*if(message.content === '!loot'){
         var roll = random(0,99);
         var tier = randomInt(1,7);
         var type = randomInt(1,5);
         message.channel.send('roll: '+roll+' tier: '+tier+' type: '+type);
     }
+    */
+   if(message.content === '!ping'){
+       message.channel.send('pong');
+   }
 });
 
 // THIS  MUST  BE  THIS  WAY
