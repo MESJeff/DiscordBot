@@ -16,7 +16,7 @@ client.on('message', message =>{
         var webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Trash/Common1.png');
         
         if(roll < 60){
-            message.channel.send('Common');
+            //message.channel.send('Common');
             switch(tier){
                 case 1:
                 webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Trash/Common1.png');
@@ -131,10 +131,10 @@ client.on('message', message =>{
                 
                     break;
             }
-            
+            message.channel.send('You got a: '+tier);
             message.channel.send(webAttachment);
         }else if(roll < 80){
-            message.channel.send('Uncommon');
+            //message.channel.send('Uncommon');
             type = randomInt(1,5);
             //const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Trash/Uncommon1.png');
             switch(tier){
@@ -251,9 +251,10 @@ client.on('message', message =>{
                     
                     break;
             }
+            message.channel.send('You got a: '+tier);
             message.channel.send(webAttachment);
         }else if(roll < 92){
-            message.channel.send('Rare');
+            //message.channel.send('Rare');
             //const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Trash/Rare1.png');
             type = randomInt(1,3);
             switch(tier){
@@ -342,9 +343,10 @@ client.on('message', message =>{
                     
                     break;
             }
+            message.channel.send('You got a: '+tier);
             message.channel.send(webAttachment);
         }else if (roll < 97){
-            message.channel.send('Epic');
+            //message.channel.send('Epic');
             //const webAttachment = new Discord.Attachment('http://icantbelieveitsnotgambling.com/images/Loot/Trash/Epic1.png');
             type = randomInt(1,2);
             switch(tier){
@@ -419,6 +421,7 @@ client.on('message', message =>{
                     
                     break;
             }
+            message.channel.send('You got a: '+tier);
             message.channel.send(webAttachment);
         }else if(roll < 100){
             message.channel.send('Legendary');
