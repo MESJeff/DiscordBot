@@ -27,8 +27,8 @@ client.on('message', message =>{
 });
 
 // THIS  MUST  BE  THIS  WAY
-//client.login(process.env.BOT_TOKEN);
-client.login('NTYyNDEyMDA3MjY1OTI3MjE5.XKfSZA.bOrlDQcI0V8nhmx_wnvIWmjod3I')
+client.login(process.env.BOT_TOKEN);
+//client.login('NTYyNDEyMDA3MjY1OTI3MjE5.XKfSZA.bOrlDQcI0V8nhmx_wnvIWmjod3I')
 
 //generate float between low (inclusive) and high (exclusive)
 function random(low, high){
