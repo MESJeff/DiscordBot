@@ -12,7 +12,7 @@ client.on('ready', () => {
 
 client.on('message', message =>{
     if (message.content === '!loot') {
-        message.channel.send(client.user.toString()+' is Unboxing...');
+        message.channel.send(message.author.toString()+' is Unboxing...');
         var roll = random(0,99);
         var tier = randomInt(1,7);
         var type = randomInt(1,5);
